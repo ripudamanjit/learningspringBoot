@@ -1,0 +1,16 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+      <bean id = "dev" class="com.telusko.Dev" autowire="byType">
+<!--          <property name="comp" ref="lap1"/>-->
+<!--          <constructor-arg ref="lap1"/>-->
+<!--          <property name="laptop" ref="lap1"></property>-->
+<!--          <property name="age" value="12"/>-->
+<!--          <constructor-arg value="14"/>-->
+      </bean>
+    <bean id = "com" class="com.telusko.Laptop" primary="true">
+    </bean>
+    <bean id = "desk1" class="com.telusko.Desktop">
+    </bean>
+</beans>
